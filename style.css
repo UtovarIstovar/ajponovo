@@ -55,6 +55,14 @@ html{
 	background-size: cover;
 }
 
+.vektorcic{
+	background: url(suma.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 
 table{
 	table-layout: fixed;

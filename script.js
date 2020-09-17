@@ -9,7 +9,6 @@ console.log("Ovo je najjaci sajt na svetu");
 function dodaj() {
 
 	var adresa = document.createElement("a");
-	adresa.href = "/";
 	adresa.onclick = obrisi;
 	var hajedan = document.createElement("h1");
 	hajedan.appendChild(document.createTextNode("Stavka " + i.toString()));

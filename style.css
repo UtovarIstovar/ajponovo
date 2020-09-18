@@ -5,6 +5,15 @@
 	margin-top: 28px;
 }
 
+.nedodirljiv {
+	-moz-user-select: none;
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+	cursor: pointer;
+}
+
 .pisanije{
 	margin-bottom: 0px;
 }

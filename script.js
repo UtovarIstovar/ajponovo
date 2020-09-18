@@ -8,12 +8,11 @@ console.log("Ovo je najjaci sajt na svetu");
 
 function dodaj() {
 
-	var adresa = document.createElement("a");
-	adresa.onclick = obrisi;
 	var hajedan = document.createElement("h1");
+	hajedan.onclick = obrisi;
+	hajedan.classList.add("nedodirljiv");
 	hajedan.appendChild(document.createTextNode("Stavka " + i.toString()));
-	adresa.appendChild(hajedan);
-	spisak.appendChild(adresa);
+	spisak.appendChild(hajedan);
 
 	i++;
 }
